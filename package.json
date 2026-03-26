@@ -1,0 +1,13 @@
+{
+  "name": "swiss-testing-day-playwright-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx http-server app -p 3000",
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^25.5.0",
+    "http-server": "^14.1.1"
+  }
+}
