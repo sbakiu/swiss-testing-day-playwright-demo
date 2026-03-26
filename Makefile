@@ -12,3 +12,6 @@ install-cli:
 
 skills:
 	playwright-cli install --skills
+
+pkill:
+	pkill -f "http-server app -p 3000" 
